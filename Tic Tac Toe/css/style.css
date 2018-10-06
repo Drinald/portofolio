@@ -1,0 +1,74 @@
+
+body{background-image:url('http://i.imgur.com/tfCmAjl.jpg');
+}
+#title{
+  font-size:30px;
+  color:black;
+  font-weight:900;
+  background-color:
+}
+#victory{
+  font-size:30px;
+  color:black;
+  font-weight:900;
+  background-color:
+}
+#playerOne{
+  font-weight:700;
+  border-radius:5px;
+  width:110px;
+  margin:10px auto 10px auto;
+}
+#playerTwo{
+  font-weight:700;
+  border-radius:5px;
+  width:110px;
+  margin:10px auto 10px auto;
+}
+#reset{
+font-weight:700;
+  border-radius:5px;
+  width:110px;
+}
+table{
+ table-layout:fixed;
+ border-radius:10px;
+ background-color:black;
+ color:black;
+ border:solid;
+  padding:0px;
+ border-collapse:separate;
+ margin:20px auto 20px auto;
+  cursor:pointer;
+}
+tr td{
+  font-size:90px;
+  word-wrap:break-word;
+  background-color:lightblue;
+  border-radius:5px;
+  border-collapse:collapse;
+  color:black;
+  border:solid;
+  width:150px;
+  height:150px;
+  padding:0px;
+  margin:0px;
+  cursor:pointer;
+  text-align:center;
+}
+#intro{
+  color:black;
+  font-weight:700;
+}
+#Xplayer{
+  font-weight:700;
+  border-radius:5px;
+  width:40px;
+  margin:10px auto 40px auto;
+}
+#Oplayer{
+  font-weight:700;
+  border-radius:5px;
+  width:40px;
+  margin:10px auto 40px auto;
+}
