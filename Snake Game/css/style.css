@@ -1,0 +1,39 @@
+body {
+	background-image:url('snake_background.jpg');
+	text-align:center;
+}
+canvas {
+	background-color:#AED581;
+	position:relative;
+	margin:20px;
+	border:solid;
+}
+#lvl {
+	font-weight:bold;
+}
+table {
+	position:relative;
+	margin:auto;
+	margin-top:30px;
+	width:150px;
+	height:150px;
+}
+.button {
+	border:solid;
+	background-color:white;
+	text-align:center;
+	align-content:center;
+	font-size:30px;
+	width:50px;
+	height:50px;
+}
+.button:hover{
+	background-color:#81D4FA;
+	cursor:pointer;
+}
+.button:active{
+	background-color:#039BE5;
+}
+#middleField{
+	background-color:black;
+}

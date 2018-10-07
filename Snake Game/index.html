@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+			<title>Snake Game</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="display">
+			<canvas id="table"></canvas>
+			<div id="lvl"> Level 1</div>
+			<progress id="bar" class="w3-blue" name="bar" max="10" value="0"></progress>
+			<div></div>
+		</div>
+	<table>
+		<tr>
+			<td></td>
+			<td class="button" id="up"><svg width="24" height="24" viewBox="0 0 24 24">
+			<path d="M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z"></path>
+			</svg></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="button" id="left"><svg width="24" height="24" viewBox="0 0 24 24">
+			<path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+			</svg></td>
+			<td id="middleField"></td>
+			<td class="button" id="right"><svg width="24" height="24" viewBox="0 0 24 24">
+			<path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+			</svg></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="button" id="down"><svg width="24" height="24" viewBox="0 0 24 24">
+			<path d="M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z"></path>
+			</svg></td>
+			<td></td>
+		</tr>
+	</table>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="javascript.js"></script>
+	</body>
+</html>
