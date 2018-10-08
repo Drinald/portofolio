@@ -1,0 +1,142 @@
+body{
+  background-image:url('http://orig13.deviantart.net/e097/f/2014/110/0/e/destiny__qhd_by_in3xplicit-d4mr13d.jpg');
+  background-size:1900px 1200px;
+ 
+  text-align:center;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  left:35px;
+  top:28px;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius:5px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "off";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius:5px;
+}
+
+input:checked + .slider:before {
+  content: "on";
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+#count{
+position:absolute;
+  left:15px;
+  bottom:50px;
+  border:solid;
+  Border-radius:5px;
+  background-color:black;
+  border-color:black;
+  color:red;
+  width:60px;
+  height:34px;
+}
+#simon{
+  display:inline-block;
+  margin-top:10px;
+  font-weight:bold;
+  font-size:16px;
+}
+#small{
+  display:inline-block;
+  font-size:15px;
+}
+
+#btn-1{
+  margin-top:32px;
+  border-top-left-radius:100%;
+  height:180px;
+  width:180px;
+  display:inline-block;
+  background-color:green;
+}
+
+
+#btn-2{
+  border-top-right-radius:100%;
+  height:180px;
+  width:180px;
+  display:inline-block;
+  background-color:red;
+}
+
+
+#btn-3{
+  border-bottom-left-radius:100%;
+  height:180px;
+  width:180px;
+  display:inline-block;
+  background-color:yellow;
+}
+
+
+#btn-4{
+  border-bottom-right-radius:100%;
+  height:180px;
+  width:180px;
+  display:inline-block;
+  background-color:blue; 
+}
+
+button{
+  cursor:pointer;
+  outline:none !important;
+  margin:10px;
+  border:none;
+}
+
+#center{
+  color:black;
+  background-color:white;
+  position:absolute;
+  border:solid;
+  border-width:15px;
+  border-color:black;
+  border-radius:100%;
+  height:200px;
+  width:200px;
+  left:27.5%;
+  top:27.5%;
+}
+#main{
+ background-color:black;
+ overflow:auto;
+ border-radius:100%;
+ position:relative;
+ margin: 380px auto auto auto;
+ float:center;
+ border:solid;
+ width:450px;
+ height:450px; 
+}
+input{
+  cursor:pointer;
+}
+#credits{
+  margin-top:200px;
+}

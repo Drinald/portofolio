@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+			<title>Simon Game</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="main">
+			<button class="button" id="btn-1"></button><!--green-->
+			<button class="button" id="btn-2"></button></br><!--red-->
+			<button class="button" id="btn-3"></button><!--yellow-->
+			<button class="button" id="btn-4"></button><!--blue-->
+		<div id="center">
+			<div id="simon">Simon<div id="small">®</div></div>
+			<form>
+				<input id="start"type="radio" value="start">Start
+				<input id="strict" type="radio" value="strict">Strict
+			</form>
+			<div id="count">--</div>
+			<label class="switch">
+				<input type="checkbox">
+				<div class="slider round"></div>
+			</label>
+		</div>
+		</div>
+		<audio id="1"><source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+		<audio id="2"><source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+		<audio id="3"><source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+		<audio id="4"><source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+		<audio id="5"><source src="https://hydra-media.cursecdn.com/dota2.gamepedia.com/3/31/Pain_deny_03.mp3"></audio>
+		<audio id="6"><source src="https://hydra-media.cursecdn.com/dota2.gamepedia.com/7/7d/Pain_deny_06.mp3"></audio>
+		<audio id="7"><source src="https://hydra-media.cursecdn.com/dota2.gamepedia.com/0/07/Pain_deny_09.mp3"></audio>
+		<audio id="8"><source src="https://hydra-media.cursecdn.com/dota2.gamepedia.com/1/17/Pain_deny_08.mp3"></audio>
+
+		<p id="credits"> Made by <a target="_blank"href="https://codepen.io/Drinald">Drinald Varfi</a></p>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="javascript.js"></script>
+	</body>
+</html>
